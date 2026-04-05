@@ -18,17 +18,42 @@
 .cards{
     flex: 0 0 15rem;
     height: 15rem;
-    padding: 3rem;
-    font-size: 3rem;
     border-radius: .2rem;
     &:nth-child(1){
-        background-image: url('6.jpg');
-        background-position: center;
+        background-image: url(../Asset/images/1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     &:nth-child(2){
-        background-color: bisque;
+        background-image: url(../Asset/images/2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    &:nth-child(3){
+        background-image: url(../Asset/images/3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    &:nth-child(4){
+        background-image: url(../Asset/images/4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    &:nth-child(5){
+        background-image: url(../Asset/images/5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    &:nth-child(6){
+        background-image: url(../Asset/images/6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 @keyframes spin1 {
