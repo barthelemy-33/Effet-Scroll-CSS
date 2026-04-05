@@ -1,0 +1,41 @@
+.carousel{
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    overflow-x: auto;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+.groupe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    animation: spin1 10s linear infinite;
+    padding-right: 1rem;
+}
+.cards{
+    flex: 0 0 15rem;
+    height: 15rem;
+    padding: 3rem;
+    font-size: 3rem;
+    border-radius: .2rem;
+    &:nth-child(1){
+        background-image: url('6.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &:nth-child(2){
+        background-color: bisque;
+    }
+}
+@keyframes spin1 {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
